@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <meta name="description" content="Киномонстр - это портал о кино" />
+    <meta name="keywords" content="фильмы, фильмы онлайн, hd" />
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="main">
+    <div class="header">
+        <div class="logo">
+            <div class="logo_text">
+                <h1><a href="index.html">КиноМонстр</a></h1>
+                <h2>Кино - наша страсть!</h2>
+            </div>
+        </div>
+
+        <div class="menubar">
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Главня</a>
+                </li>
+                <li>
+                    <a href="films.html">Фильмы</a>
+                </li>
+                <li>
+                    <a href="#">Сериалы</a>
+                </li>
+                <li class="selected">
+                    <a href="rating.html">Рейтинг фильмов</a>
+                </li>
+                <li>
+                    <a href="schow_2.html">Контакты</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="site_content">
+        <div class="sitebar_container">
+            <div class="sitebar">
+                <h2>Поиск</h2>
+                <form method="post" action="#" id="search_form">
+                    <input type="search" name="search_field" placeholder="ваш запрос" />
+                    <input type="submit" class="btn" value="найти" />
+                </form>
+            </div>
+
+            <div class="sitebar">
+                <h2>Вход</h2>
+                <form method="post" action="#" id="login">
+                    <input type="text" name="login_field" placeholder="логин" />
+                    <input type="password" name="password_field" placeholder="пароль" />
+                    <input type="submit" class="btn" value="вход">
+                    <div class="lables_passger_text">
+                        <span><a href="#">забыли пароль?</a> </span> | <span><a href="#">регистрация</a></span>
+                    </div>
+                </form>
+            </div>
+
+            <div class="sitebar">
+                <h2>Новости</h2>
+                <span>01.02.2022</span>
+                <p>Мы запустили расширеный поиск</p>
+                <a href="#">читать</a>
+            </div>
+
+            <div class="sitebar">
+                <h2>Рейтинг фильмов</h2>
+                <ul>
+                    <li>
+                        <a href="schow.html">Интестеллар</a><span class="radding_sitebar">8.1</span></li>
+                    <li>
+                        <a href="matrix.html">Матрица</a><span class="radding_sitebar">9.1</span></li>
+                    <li>
+                        <a href="maks.html">Безумный Макс</a><span class="radding_sitebar">8.9</span> </li>
+                    <li>
+                        <a href="atlas.html">Облачный Атлас</a><span class="radding_sitebar">8.3</span> </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="content">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Фильмы</th>
+                    <th class="center">Год</th>
+                    <th class="center">Рейтинг</th>
+                </tr>
+
+                <tr>
+                    <td class="center"><img src="/img/intersteller.png"></td>
+                    <td>1. <a href="schow.html">Интерсталлар</a></td>
+                    <td class="center">2019</td>
+                    <td class="center rating">8.1</td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Фильмы</th>
+                    <th class="center">Год</th>
+                    <th class="center">Рейтинг</th>
+                </tr>
+
+                <tr>
+                    <td class="center"><img src="/img/Mad_Max_Fury_Road.png"></td>
+                    <td>1. <a href="maks.html">Безумный Макс</a></td>
+                    <td class="center">2022</td>
+                    <td class="center rating">8.9</td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Фильмы</th>
+                    <th class="center">Год</th>
+                    <th class="center">Рейтинг</th>
+                </tr>
+
+                <tr>
+                    <td class="center"><img src="/img/Matrix-DVD.png"></td>
+                    <td>1. <a href="matrix.html">Матрица</a></td>
+                    <td class="center">2017</td>
+                    <td class="center rating">9.1</td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Фильмы</th>
+                    <th class="center">Год</th>
+                    <th class="center">Рейтинг</th>
+                </tr>
+
+                <tr>
+                    <td class="center"><img src="/img/Cloud_Atlas.png"></td>
+                    <td>1. <a href="atlas.html">Облачный атлас</a></td>
+                    <td class="center">2019</td>
+                    <td class="center rating">8.3</td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+<div class="footer">
+    <p>
+        <a href="index.html">Главная</a> |
+        <a href="schow.html">Фильмы</a> |
+        <a href="#">Сериалы</a> |
+        <a href="rating.html">Рейтинг фильмов</a> |
+        <a href="schow_2.html">Контакты</a>
+    </p>
+    <p>wh-db.com 2022</p>
+</div>
+
+</div>
+<script src="script.js"></script>
+</body>
